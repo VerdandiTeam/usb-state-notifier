@@ -29,7 +29,7 @@ Simple daemon that monitors power supply events and sents appropriate usb state.
 %cmake_install
 
 # Binary
-install -Dm755 build/usb_state_service \
+install -Dm755 usb_state_service \
     %{buildroot}/usr/bin/usb_state_service
 
 # Systemd service
